@@ -1,0 +1,1190 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Nabla&family=Roboto+Condensed&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/*!----------------------------------------------RESERT----------------------------------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../img/Los-discos-de-vinilo-necesitan-de-un-cuidado-especial.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    font-family: 'Electrolize', sans-serif;
+}
+
+
+
+
+/*!----------------------------------------------HEADER----------------------------------------------------------------*/
+
+.navbar-brand{
+    font-family: 'Nabla', cursive;
+    font-size: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.707)  ;
+    display: flex;
+    align-items: end;
+}
+
+.nav-link {
+    color: white;
+}
+
+.boton{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+.boton:hover{
+    color: white;
+    background-color: rgb(0, 0, 0);
+
+}
+
+
+/*!----------------------------------------------MAIN----------------------------------------------------------------*/
+
+
+/*!--------Secccion1-------------HERO---------------------!*/
+
+.hero{
+    width: 100%;
+    height: 90vh;
+    background-color: rgba(255, 255, 255, 0.498);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.hero h1{
+    display: inline-block;
+    font-size: 80px;
+    font-weight: 200;
+    color: rgba(0, 0, 0, 0.89);
+    text-shadow: -6px 4px 7px rgba(170, 168, 168, 0.658),-9px 4px 10px rgb(230, 223, 223),-4px 4px 0px rgb(255, 255, 255);
+    margin-top: 110px;
+}
+
+
+.hero a{
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 7px;
+    border: solid 1px rgba(255, 255, 255, 0.541);
+    border-radius: 50%;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.411);
+}
+
+
+.hero p{
+    width: 50%;
+    font-size: 20px;
+    font-weight: 250;
+    color: rgb(255, 255, 255);
+    text-shadow: -4px 3px 7px rgba(0, 0, 0, 1);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+
+
+
+/*!-----Seccion2---------------COLECCIÓN------------------------!*/
+
+
+
+
+.coleccion{
+    background-image: none;
+    height: 70vh;
+
+}
+.coleccion h2{
+    background-image: none;
+    color: rgb(252, 151, 0);
+    font-size: 33px;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-item img{
+    height: 350px;
+}
+
+
+
+/*   PESTAÑA COLECCION  */
+
+.pestaña-coleccion  section h1{
+    display: flex;
+    justify-content: center;
+    color: rgb(252, 151, 0);
+    font-size: 40px;
+    font-weight: 150;
+    
+}
+
+.pestaña-coleccion  section h2{
+    display: flex;
+    justify-content: center;
+    color: rgb(252, 151, 0);
+    font-size: 30px;
+    font-weight: 100;
+    margin-top: 30px;
+    
+}
+
+.vivos-contenedor{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.lanzamientos-contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.vivos-contenedor-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 350px 350px 350px 350px 350px;
+    grid-template-areas: 
+    "vid1 vid2"
+    "vid3 vid4"
+    "vid5 vid6"
+    "vid7 vid8"
+    "vid9 vid10";
+}
+
+.vivos-contenedor-grid div{
+    margin: 10px;
+}
+
+
+.vid1{
+    grid-area: vid1;
+}
+.vid2{
+    grid-area: vid2;
+}
+.vid3{
+    grid-area: vid3;
+}
+.vid4{
+    grid-area: vid4;
+}
+.vid5{
+    grid-area: vid5;
+}
+.vid6{
+    grid-area: vid6;
+}
+.vid7{
+    grid-area: vid7;
+}
+.vid8{
+    grid-area: vid8;
+}
+.vid9{
+    grid-area: vid9;
+}
+.vid10{
+    grid-area: vid10;
+}
+
+
+.lanzamientos-contenedor-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 350px 350px 350px;
+    grid-template-areas: 
+    "alb1  alb2   alb3   alb4"
+    "alb5  alb6   alb7   alb8"
+    "alb9  alb10  alb11  alb12"
+}
+
+
+.lanzamientos-contenedor-grid div{
+    margin: 15px;
+}
+
+.lanzamientos-contenedor-grid div a img{
+    width: 250px;
+    height: 250px;
+}
+
+.alb1{
+    grid-area: alb1;
+}
+.alb2{
+    grid-area: alb2;
+}
+.alb3{
+    grid-area: alb3;
+
+}
+.alb4{
+    grid-area: alb4;
+
+}
+.alb5{
+    grid-area: alb5;
+
+}
+.alb6{
+    grid-area: alb6;
+
+}
+.alb7{
+    grid-area: alb7;
+
+}
+.alb8{
+    grid-area: alb8;
+
+}
+.alb9{
+    grid-area: alb9;
+
+}
+.alb10{
+    grid-area: alb10;
+
+}
+.alb11{
+    grid-area: alb11;
+
+}
+
+.alb12{
+    grid-area: alb12;
+
+}
+
+
+
+
+
+
+
+
+
+/*   PESTAÑA CONTACTO  */
+
+.contacto-pestaña{
+    width: 100%;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "div0c"
+    "div1c"
+    "div2c"
+    "div2c";
+}
+
+.div0c{
+    grid-area: div0c;
+    color: rgb(252, 151, 0);
+    font-size: 30px;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.div1c{
+    grid-area: div1c;
+    margin-left:  400px;
+    margin-right: 400px;
+}
+
+.div2c{
+    grid-area: div2c;
+    margin-left:  200px;
+    margin-right: 200px;
+}
+
+
+/*   PESTAÑA NOSOTROS  */
+
+.main-nosotros{
+    width: 100%;
+    height: 100vh;
+}
+
+
+.main-nosotros h1{
+    text-align: center;
+    padding-top: 50px;
+    color: rgb(252, 151, 0);
+    font-size: 30px;
+    font-weight: 100;
+}
+
+
+.main-nosotros p{
+    padding-top: 30px;
+    width: 100%;
+    height: 40vh;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.04);
+}
+
+
+.main-nosotros div h2{
+    color: rgb(252, 151, 0);
+    font-size: 23px;
+    font-weight: 100;
+}
+.contacto-links a {
+    text-decoration: none;
+    color: white;
+}
+.contacto-links div{
+    display: inline-block;
+}
+.contacto-links div a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacto-links div a{
+    text-decoration: none;
+    color: white;
+    margin:10px;
+
+}
+.contacto-links div a img{
+    height: 30px;
+    width: 30px;
+}
+
+
+/*   PESTAÑA SELECCION  */
+
+.seleccion-pestaña{
+    width: 100%;
+}
+
+.seleccion-pestaña  h1 {
+    text-align: center;
+    padding-top: 50px;
+    color: rgb(252, 151, 0);
+    font-size: 40px;
+    font-weight: 150;
+}
+
+.seleccion-uno div h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100;
+    color: rgb(252, 151, 0);
+
+}
+
+.decadas div h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100;
+    color: rgb(252, 151, 0);
+
+}
+
+.seleccion-pestaña section div h2{
+    margin-top: 5px;
+
+}
+
+
+.seleccion-pestaña section div div{
+    display: flex;
+    justify-content: center;
+}
+
+.seleccion-uno{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 350px 350px 350px;
+    grid-template-areas: 
+    "s1  s1  s3"
+    "s1  s1  s4"
+    "s2  s2  s5"
+    ;
+}
+
+.todos-los-tiempos {
+    grid-area: s1;
+}
+
+.veintitres{
+    grid-area: s2;
+}
+
+.veintidos{
+    grid-area: s3;
+}
+
+.veintiuno{
+    grid-area: s4;
+}
+
+.veinte{
+    grid-area: s5;
+}
+
+.todos-los-tiempos div a img{
+    width: 650px;
+    height: 650px;
+    
+}
+
+.veintitres div a img{
+    width: 310px;
+    height: 310px;
+}
+
+.veintidos div a img{
+    width: 310px;
+    height: 310px;
+}
+
+.veintiuno div a img{
+    width: 310px;
+    height: 310px;
+}
+
+.veinte div a img{
+    width: 310px;
+    height: 310px;
+}
+
+
+
+.decadas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 350px 350px;
+    grid-template-areas: 
+    "sd1  sd2  sd3"
+    "sd4  sd5  sd6"
+    ;
+}
+.dosmildiez{
+    grid-area: sd1;
+}
+
+.dosmil{
+    grid-area: sd2;
+}
+
+.noventas{
+    grid-area: sd3;
+}
+
+.ochentas{
+    grid-area: sd4;
+}
+
+.setentas{
+    grid-area: sd5;
+}
+
+.sesentas{
+    grid-area: sd6;
+}
+
+.decadas{
+    margin-top: 200px;
+}
+
+.decadas div{
+    margin-top: 5px;
+}
+
+.decadas div div a img {
+    width: 310px;
+    height: 310px;
+}
+
+
+
+/*!-------Seccion3------------SELECCIÖN-----------------------!*/
+
+
+.seleccion{
+    background-color: rgba(255, 255, 255, 0.433);
+    width: 100%;
+    height:115vh;
+}
+
+
+.seleccion h2{
+    display: flex;
+    justify-content: center;
+    color: rgb(252, 151, 0);
+    font-size: 30px;
+    font-weight: 100;
+}
+
+
+.seleccion-items{
+    display: flex;
+    flex: wrap;
+    align-items: center;
+    margin-top: 50px;
+    width: 100%;
+}
+
+
+.seleccion-contenedor-grids{
+
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 330px 330px;
+    grid-template-areas: 
+    "div1  div2 "
+    "div1  div3";
+}
+
+
+.seleccion div h3{
+    color: rgb(255, 208, 0);
+    font-weight: 50;
+}
+
+
+.grid-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+/*  [[[[[[   IMAGENES ALBUMS SELECCION     */
+.año{
+    grid-area: div1;
+}
+
+.año img{
+    width:350px;
+    height: 350px;
+    
+}
+
+
+.mes{
+    grid-area: div2;
+}
+
+.mes img{
+    width: 200px;
+    height: 200px;
+}
+
+.semana{
+    grid-area: div3;
+}
+
+.semana img{
+    width: 200px;
+    height: 200px;
+}
+
+
+
+/*!--------Seccion4-----------------MAPA------------------------!*/
+
+.mapa{
+    background-image:none;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mapa div a img{
+    display: flex;
+    padding: 30px;
+    
+}
+
+
+/*!--------Seccion5---------------PARRAFO----------------------!*/
+
+.parrafo{
+    width: 100%;
+    height: 50vh;
+    background-color: rgba(255, 255, 255, 0.499);
+    display: flex;
+    align-items: center;
+}
+
+
+.parrafo p{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+    text-shadow: -4px 3px 7px rgba(0, 0, 0, 1);
+}
+
+
+
+
+/*!--------Seccion6-------------PLAYLISTS-----------------------!*/
+
+.playlist{
+    width: 100%;
+    height: 50vh;
+    background-image:none;
+}
+.playlist h2{
+    display: flex;
+    justify-content: center;
+    color: rgb(252, 151, 0);
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.accordion {
+    margin-top: 50px;
+}
+
+/*!----------------------------------------------FOOTER----------------------------------------------------------------*/
+
+
+footer{
+    background-color: rgba(255, 255, 255, 0.504);
+    background-position: 0%;
+    border: solid 1px rgb(255, 208, 0);
+    width: 100%;
+    height: 15vh;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+footer  h2{
+    font-family: 'Nabla', cursive;
+    font-size: 30px;    
+    margin-bottom: 30px;
+}
+
+
+footer div {
+    margin: 50px
+}
+footer div a{
+padding: 5px;
+}
+
+footer div a img{ 
+    width: 20px;
+    height: 20px;
+    margin-bottom: 30px;
+}
+
+footer h3 {
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+/*!----------------------------------------------MEDIAQUERYS----------------------------------------------------------------*/
+@media screen and (max-width:1250px){
+
+    .lanzamientos-contenedor-grid div a img{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width:1200px){
+.vivos-contenedor div div iframe {
+    width: 360px;
+    height: 215px;
+}
+}
+
+@media screen and (max-width:1050px){
+
+    .carousel-caption {
+        margin-left: 300px;
+    }
+
+    }
+
+
+@media screen and (max-width:1000px){
+    .vivos-contenedor-grid{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 220px 220px 220px 220px 220px;
+    }
+
+    .seleccion-uno{
+        grid-template-rows: 250px 250px 250px;
+
+    }
+        .todos-los-tiempos div a img{
+            width: 400px;
+            height: 400px;
+            
+        }
+        
+        .veintitres div a img{
+            width: 200px;
+            height: 200px;
+        }
+        
+        .veintidos div a img{
+            width: 200px;
+            height: 200px;
+        }
+        
+        .veintiuno div a img{
+            width: 200px;
+            height: 200px;
+        }
+        
+        .veinte div a img{
+            width: 200px;
+            height: 200px;
+        }
+    }
+    
+    .div1c {margin-left: 300px;
+    margin-right: 300px;
+    
+}
+.decadas div div a img {
+    width: 270px;
+    height: 270px;
+}
+
+
+@media screen and (max-width:950px){
+    
+    .lanzamientos-contenedor-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 220px 220px 220px 220px;
+        grid-template-areas: 
+        "alb1  alb2   alb3"
+        "alb4  alb5   alb6"
+        "alb7  alb8   alb9"
+        "alb10 alb11  alb12"
+
+    }
+
+    .vivos-contenedor div div iframe {
+        width: 330px;
+        height: 185px;
+    }
+    
+    .div1c {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    .año img{
+        width:300px;
+        height:300px;
+        
+    }
+    
+    .mes img{
+        width: 170px;
+        height: 170px;
+    }
+    
+    
+    .semana img{
+        width: 170px;
+        height: 170px;
+    }
+    .archivo-pestaña {
+        height: 350vh;
+    }
+    .decadas div div a img {
+        width: 200px;
+        height: 200px;
+    }
+    .decadas{
+        margin-top: 100px;}
+
+        
+.archivo-pestaña{
+height: 250vh;
+}
+    }
+
+    @media screen and (max-width:760px){
+        .main-nosotros p{
+            font-size: 14px;
+        }
+        footer div {
+            margin: 20px
+        }
+        footer div h2{
+            font-size: 25px;        
+    
+        }
+        
+        footer div h3 {
+            font-size: 13px;
+        }
+        
+        footer div a img{ 
+            width: 18px;
+            height: 18px;
+        }
+    }
+
+
+@media screen and (max-width:740px){
+
+    .lanzamientos-contenedor-grid div a img{
+        width: 180px;
+        height: 180px;
+    }
+    .vivos-contenedor div div iframe {
+        width: 300px;
+        height: 185px;
+    }
+
+
+    .mapa div a img{
+        width: 540px;
+        height: 350px;        
+    }
+
+    .div2c{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .decadas div h2{
+        text-align: center;
+        font-size: 25px;
+    }
+    .decadas{
+        grid-template-rows: 220px 220px;
+    }
+    .decadas{
+        margin-top: 80px;}
+}
+
+@media screen and (max-width:665px){
+    
+    .vivos-contenedor div div iframe {
+        width: 250px;
+        height: 155px;
+    }
+
+    .lanzamientos-contenedor-grid div a img{
+        width: 150px;
+        height: 150px;
+    }
+
+.coleccion{
+    height: 60vh;
+}
+.carousel-item img{
+    height: 250px;
+}
+
+.seleccion-contenedor-grids{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 330px 330px;
+    grid-template-areas: 
+    "div1 div2"
+    "div3 div3";
+}
+
+
+.año img{
+    width: 170px;
+    height:170px;
+    
+}
+
+.mes img{
+    width: 170px;
+    height: 170px;
+}
+.semana img{
+    width: 170px;
+    height: 170px;
+}       
+        
+    .parrafo{
+        width: 100%;
+        height: 30vh;
+        background-color: rgba(255, 255, 255, 0.499);
+        display: flex;
+        align-items: center;
+    }
+
+        .parrafo p{
+        font-size: 13px;
+        font-weight: 150;
+        }
+        
+        
+        .decadas div div a img {
+            width: 170px;
+            height: 170px;
+        }
+            .todos-los-tiempos div a img{
+                width: 300px;
+                height: 300px;
+                
+            }
+            
+            .veintitres div a img{
+                width: 150px;
+                height: 150px;
+            }
+            
+            .veintidos div a img{
+                width: 150px;
+                height: 150px;
+            }
+            
+            .veintiuno div a img{
+                width: 150px;
+                height: 150px;
+            }
+            
+            .veinte div a img{
+                width: 150px;
+                height: 150px;
+            }
+
+            .decadas{
+                margin-top: 40px;}
+
+                .archivo-pestaña{
+                    height: 200vh;
+                    }
+        }
+
+@media screen and (max-width:620px){
+    
+    .lanzamientos-contenedor-grid{
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 160px 160px 160px 160px 160px 160px;
+        grid-template-areas: 
+        "alb1  alb2"
+        "alb3  alb4"
+        "alb5  alb6"
+        "alb7 alb8"
+        "alb9 alb10"
+        "alb11 alb12";
+        }
+
+        .seleccion div h3{
+            font-size: 20px;
+        }
+        
+        .año img{
+            width:150px;
+            height:150px;
+            
+        }
+        
+        .mes img{
+            width: 150px;
+            height: 150px;
+        }
+        .semana img{
+            width: 150px;
+            height: 150px;
+        }    
+    }
+@media screen and (max-width:600px){
+    .vivos-contenedor-grid{
+        grid-template-columns: 1fr;
+        grid-template-rows: 150px 150px 150px 150px 150px  150px 150px 150px 150px 150px;
+        grid-template-areas: 
+        "vid1"
+        "vid2"
+        "vid3"
+        "vid4"
+        "vid5"
+        "vid6"
+        "vid7"
+        "vid8"
+        "vid9"
+        "vid10"
+        ;
+    }
+    .main-nosotros div h2{
+        font-size: 20px;
+    }
+    
+    .main-nosotros p {
+        font-size: 13px;
+    }
+
+    .div1c {margin-left: 100px;
+    margin-right: 100px;
+}
+.decadas div h2{
+    font-size: 20px;
+}
+}
+@media screen and (max-width:565px){
+
+    .mapa{
+        height: 50vh;
+    }
+    .mapa div a img{
+        width: 440px;
+        height: 280px;        
+    }
+    
+    .seleccion-contenedor-grids{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 330px 330px;
+        grid-template-areas: 
+        "div1 div2"
+        "div3 div3";
+    }
+
+
+    .año img{
+        width:120px;
+        height:120px;
+        
+    }
+    
+    .mes img{
+        width: 120px;
+        height: 120px;
+    }
+    .semana img{
+        width: 120px;
+        height: 120px;
+    }    
+
+    .main-nosotros p {
+        font-size: 12px;
+    }
+
+    .decadas{
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 220px 220px 220px;
+        grid-template-areas: 
+        "sd1  sd2"
+        "sd3  sd4"
+        "sd5  sd6"
+        ;
+    }
+    .archivo-pestaña{
+        height: 250vh;
+        }
+
+        .seleccion-uno{
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 420px 250px 250px;
+            grid-template-areas: 
+            "s1  s1"
+            "s2  s3 "
+            "s4  s5 "
+            ;
+        }
+
+        .archivo-pestaña{
+            height: 280vh;
+        }
+        footer div {
+            margin: 5px
+        }
+}
+
+@media screen and (max-width:510px) {
+
+    footer div h2{
+        font-size: 20px;        
+
+    }
+    
+    footer div h3 {
+        font-size: 10px;
+    }
+    
+    footer div a img{ 
+        width: 15px;
+        height: 15px;
+    }
+    
+
+}
+
+
+
+@media screen and (max-width:450px) {
+
+    .mapa div a img{
+        width: 340px;
+        height: 200px;        
+    }
+    .main-nosotros p {
+        font-size: 12px;
+    }
+    
+    .main-nosotros p {
+        font-size: 10px;
+    }
+    .decadas div div a img {
+        width: 140px;
+        height: 140px;
+    }
+}
+@media screen and (max-width:360px) {
+    footer div h2{
+        font-size: 17px;        
+
+    }
+    
+    footer div h3 {
+        font-size: 8px;
+    }
+    
+    footer div a img{ 
+        width: 13px;
+        height: 13px;
+    }
+
+
+}

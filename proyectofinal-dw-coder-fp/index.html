@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<!-- <link rel="stylesheet" href="./css/style.css"> -->
+<link rel="stylesheet" href="./css/estilos.css">
+<script src="https://kit.fontawesome.com/8b3b609c95.js" crossorigin="anonymous"></script>
+<meta name="description" content="Curaduría de música online. Una selección de joyas musicales de todos los tiempos, géneros y ubicaciones geográficas con escasa difusión en los grandes medios de comunicación.">
+<meta name="keywords" content="nombre, música, musica, sonido, arte, bandas, banda, artistas, artista, musicos, curaduría, albúm, albums, disco, discos, recital, show, audio, vinilos, cds">
+<title>Nombre / Curaduría musical</title>
+<link rel="shortcut icon" href="./img/favicon-16x16.png" type="image/x-icon">
+<meta property="og:type" content="music">
+<meta property="og:title" content="Nombre / Curaduría musical">
+<meta property="og:url" content="https://nombre-46885.netlify.app">
+<meta property="og:image" content="https://nombre-46885.netlify.app/img/logo.png">
+<meta property="og:description" content="Curaduría de música online. Exquisita selección musical de todos los tiempos, géneros y ubicaciones geográficas con escasa difusión en los grandes medios de comunicación masivos.">
+</head>
+
+<body>
+    <!-----------NAV-------------->
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html"><img src="./img/logo.png" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./pages/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Colección
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./pages/coleccion.html">Todo</a></li>
+                                <li><a class="dropdown-item" href="./pages/seleccion.html">Selección</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn boton" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!------------------------HERO----------------------->
+        <section class="hero">
+            <h1>NOMBRE</h1>
+            <a href="#comienzo-navegacion">Navegar</a>
+            <p>"DESCUBRÍ NUEVOS SONIDOS"</p>
+        </section>
+        <!----------- SECCIÓN--COLECCIÓN------------->
+        <section class="coleccion">
+            <h2 id="comienzo-navegacion">Colección </h2>
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href="./pages/coleccion.html"><img src="./img/aphex-twin-album.webp" class="d-block w-40" alt="Ep Aphex Twin - Blackbox Life Recorder 21f / in a room7 F760"></a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5">VIDEOS EN VIVO</h5>
+                                <p>Encontra las mejores sesiones y recitales</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="./pages/coleccion.html"><img src="./img/radiohead-in-rainbows.jfif" class="d-block w-40" alt="Album Radiohead - In rainbows"></a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5">LANZAMIENTOS</h5>
+                                <p>Singles, EPs y Albumes</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="./pages/coleccion.html"><img src="./img/simbolo-playlist.png" class=" d-block w-40" alt="Playlists logo"></a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>PLAYLISTS</h5>
+                            <p>Para los distintos momentos del día y del año</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <!---------------- SECCIÓN--SELECCIÓN------------------>
+        <section class="seleccion">
+            <h2>Selección</h2>
+            <div class="seleccion-items">
+                <div class="seleccion-contenedor-grids">
+                    <div class="grid-item año">
+                        <h3>Lanzamiento del año</h3>
+                        <a href="./pages/seleccion.html"><img src="./img/king-krule-space-heavy.png"
+                                alt="Album King Krule - Space heavy"></a>
+                    </div>
+                    <div class="grid-item mes">
+                        <h3>Lanzamiento del mes</h3>
+                        <a href="./pages/seleccion.html"><img src="./img/aphex-twin-album.webp" alt="Ep Aphex Twin - Blackbox Life Recorder 21f / in a room7 F760"></a>
+                    </div>
+                    <div class="grid-item semana">
+                        <h3>Lanzamiento de la semana</h3>
+                        <a href="./pages/seleccion.html"><img src="./img/hella-album.webp" alt="Album Hella - Hold your horse is"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!------------------ SECCIÓN--MAPA------------------>
+        <section class="mapa">
+            <div>
+                <a href=""><img src="./img/mapa-posta.png" alt="Mapa mundi"></a>
+            </div>
+        </section>
+        <!------------------ SECCIÓN--PARRAFO------------------>
+        <section class="parrafo">
+            <p>“La música es una de las cosas que puede salvar al mundo, porque un hombre que busca y encuentra y se
+                solaza horas y días y años y años luz, a través de generaciones, con la belleza, ¿qué otra cosa
+                puede querer que un mundo mejor?”</p>
+        </section>
+        <!------------------- SECCIÓN--MAPA------------------>
+        <section class="playlist">
+            <h2>Playlists</h2>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            Nacional
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <iframe style="border-radius:12px"
+                            src="https://open.spotify.com/embed/playlist/02f8wuEP1gmt6BI2WPAqEx?utm_source=generator"
+                            width="100%" height="152" frameBorder="0" allowfullscreen=""
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                            loading="lazy"></iframe>
+                            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6OfvZkOF6ncgy6QoIBx4Oe?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            Internacional
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DX0ItcQfwbKZJ?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe><iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/42lVe7laWVnxZpdcHkt4Tk?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe><iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/6HgFGWmUOo1zbaosIADOdd?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            Acusticos
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DWXBq4mDDFnfA?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFour" aria-expanded="false"
+                            aria-controls="flush-collapseFour">
+                            Electronicas
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body"><iframe style="border-radius:12px"
+                            src="https://open.spotify.com/embed/playlist/5svEx6zRbrYtA9JSEWr8Xe?utm_source=generator"
+                            width="100%" height="100" frameBorder="0" allowfullscreen=""
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                            loading="lazy"></iframe>
+                        <iframe style="border-radius:12px"
+                            src="https://open.spotify.com/embed/playlist/4xOF7TTAG2McFFJDixc3Lt?utm_source=generator"
+                            width="100%" height="100" frameBorder="0" allowfullscreen=""
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                            loading="lazy"></iframe></div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFive" aria-expanded="false"
+                            aria-controls="flush-collapseFive">
+                            Electroacústicos
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFive" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/65bkudjVJQbPb3wWTdfRA3?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseSix" aria-expanded="false"
+                            aria-controls="flush-collapseSix">
+                            Rarezas
+                        </button>
+                    </h2>
+                    <div id="flush-collapseSix" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/2aV9J4d52QBVhP5oS479yb?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/04y6OZqfRgLlgx2ylP966W?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!--------------------- FOOTER--------------------->
+    <footer>
+        <h2>Nombre</h2>
+        <div>
+            <a href="https://outlook.com/" target="_blank"><img src="./img/mail_email_message_electronic_online_web_icon-icons.com_59986.png" alt="icono-email"></a>
+            <a href="https://soundcloud.com/" target="_blank"><img src="./img/SoundCloud_icon-icons.com_49938.png" alt="icono-souncloud"></a>
+            <a href="https://instagram.com/" target="_blank"><img src="./img/social_instagram_3.png" alt="icono-instagram"></a>
+            <a href="https://facebook.com/" target="_blank"><img src="./img/facebook_circle_logo_icon_206764.png" alt="icono-facebook"></a>
+            <a href="https://twitter.com/" target="_blank"><img src="./img/twitter-3_icon-icons.com_50735.png" alt="icono-twitter"></a>
+        </div>
+        <h3>Descubrí nuevos sonidos</h3>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
